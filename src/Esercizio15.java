@@ -1,4 +1,4 @@
-public class Main14 {
+public class Esercizio15 {
     public static void main(String[] args) {
         int numero = 1;
         fizz(numero);
