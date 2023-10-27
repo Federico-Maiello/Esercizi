@@ -1,15 +1,14 @@
 public class Esercizio20 {
     public static void main(String[] args) {
-        int x = 0;
+        int x = 4;
         risultato(x);
     }
 
-    public static int risultato(int x) {
-        for (x=0;x<=10;x++){
-            int y = 4;
-            System.out.println(x*y);
+    public static int risultato(int y) {
+        for (int x=0;x<=10;x++){
+            System.out.println(x + "x" + y + "=" + x*y);
         }
-        return x;
+        return y;
     }
 
 }
