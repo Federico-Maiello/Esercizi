@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Esercizio26 {
 
 
@@ -11,10 +13,10 @@ public class Esercizio26 {
         int[] originale = {1, 2, 3, 1, 4, 2, 5, 3, 5, 6, 7, 6, 8, 9};
 
         int[] risultato = noDuplicati(originale);
-        System.out.println("Il risultato dell'array è: ");
-        for (int numeri : risultato){
-            System.out.println(numeri + ", ");
-        }
+        System.out.println("Il risultato dell'array è: " + Arrays.toString(risultato));
+        //for (int numeri : risultato){
+          //  System.out.print(numeri + ", ");
+        //}
     }
 
     public static int[] noDuplicati(int[] originale) {
