@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Esercizio27 {
     public static void main(String[] args) {
         int[][] matrix = goMatrix();
@@ -14,10 +16,10 @@ public class Esercizio27 {
 
     public static void printMatrix(int[][] matrix) {
         for (int i=0; i< matrix.length; i++){
-            for (int j=0; j< matrix[i].length; j++){
-                System.out.println(matrix[i][j] );
-            }
-            System.out.println();
+            //for (int j=0; j< matrix[i].length; j++){
+                //System.out.println(matrix[i][j] );
+           // }
+            System.out.println(Arrays.toString(matrix [i]));
         }
     }
 
