@@ -1,6 +1,6 @@
 package Esercizio29;
 
-public record Studente(String nome, String cognome, String id) {
+public record Studente(String nome, String cognome, int id) {
 
     @Override
     public String toString() {
