@@ -1,6 +1,6 @@
 package Esercizio30;
 
-public record Auto(String cilindrata, String targa, String marca, String modello) {
+public record Auto(int cilindrata, String targa, String marca, String modello) {
 
     @Override
     public String toString() {
