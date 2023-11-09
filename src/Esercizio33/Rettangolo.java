@@ -9,7 +9,7 @@ public class Rettangolo extends Forma {
         this.y = y;
     }
     @Override
-    public int calcolaArea() {
+    public double calcolaArea() {
         double area = x*y;
         System.out.println("L'area del rettangolo è: " + area);
         return 0;
