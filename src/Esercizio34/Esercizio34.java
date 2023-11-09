@@ -6,7 +6,7 @@ package Esercizio34;
             forma.calcolaArea();
             Rettangolo rettangolo = new Rettangolo(10, 5);
             rettangolo.calcolaArea();
-            Triangolo triangolo = new Triangolo(10, 5);
+            Triangolo triangolo= new Triangolo(10, 5);
             triangolo.calcolaArea();
         }
 

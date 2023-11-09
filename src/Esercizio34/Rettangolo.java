@@ -1,6 +1,6 @@
 package Esercizio34;
 
-import Esercizio34.Forma;
+import Esercizio33.Forma;
 
 public class Rettangolo extends Forma {
     private double x;
@@ -11,8 +11,9 @@ public class Rettangolo extends Forma {
         this.y = y;
     }
     @Override
-    public void calcolaArea() {
+    public double calcolaArea() {
         double area = x*y;
         System.out.println("Rettangolo e l'area è: " + area);
+        return 0;
     }
 }
