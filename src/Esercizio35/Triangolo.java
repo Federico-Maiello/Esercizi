@@ -9,8 +9,9 @@ public class Triangolo extends Forma {
         this.y = y;
     }
     @Override
-    public void calcolaArea() {
+    public double calcolaArea() {
         double area = x*y/2;
         System.out.println("Triangolo e l'area è: " + area);
+        return 0;
     }
 }
