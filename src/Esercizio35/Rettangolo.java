@@ -13,6 +13,6 @@ public class Rettangolo extends Forma {
     public double calcolaArea() {
         double area = x*y;
         System.out.println("Rettangolo e l'area è: " + area);
-        return 0;
+        return area;
     }
 }
